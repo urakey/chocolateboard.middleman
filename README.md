@@ -5,7 +5,7 @@ chocolateboard
 
 ```
 $ bundle install --path vendor/bundle
-$ bower install
+$ npm install
 ```
 
 ## Start server

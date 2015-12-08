@@ -3,36 +3,33 @@
 //==============================================================================
 
 .footer {
-  @include wrapper;
-
-  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
   background: $background;
 
-  @include respondTo(large) {
-    min-width: 100%;
-  }
   @include respondTo(medium) {
     text-align: center;
   }
 }
 
+.footer__byline {
+  @include wrapper;
+  font-style: italic;
+}
+
 .footer__license {
+  @include wrapper;
   font-style: italic;
 }
 
 .footer__social {
+  @include wrapper;
   @include linkColor($key-color-2, $key-color-2, "none", "none", $key-color-1, true);
 
-  position: absolute;
-  top: 30px;
-  right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   @include respondTo(medium) {
-    position: inherit;
-    top: inherit;
-    right: inherit;
     padding: 0 10px;
   }
 
@@ -93,5 +90,5 @@
 }
 
 .footer__links {
-  margin: 20px 0 0;
+  @include wrapper;
 }

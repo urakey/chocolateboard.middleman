@@ -6,6 +6,8 @@ header.header[role="banner"]
 
   nav.header__navigation[role="navigation"]
     ul
+      li
+        == link_to 'Home', '/'
       - blog.articles.group_by {|a| a.data.category }.each do |c, articles|
         li
           == link_to c, category_path(c), :rel => 'tag category'

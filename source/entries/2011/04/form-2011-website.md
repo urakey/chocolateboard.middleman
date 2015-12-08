@@ -6,7 +6,7 @@ category: portfolio
 tags: web design
 published: true
 
-eyecatch: '/assets/images/entries/2011/04/form-2011-website/eyecatch.jpg'
+eyecatch: '/assets/images/entries/2011/04/form-2011-website/eyecatch.png'
 ---
 
 DJ レーベル [form.(フォーム)] 様の web site をお手伝いさせていただきました。
