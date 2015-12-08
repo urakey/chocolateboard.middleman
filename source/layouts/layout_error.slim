@@ -1,0 +1,10 @@
+== wrap_layout :layout do
+
+  .main[role="main"]
+
+    section.message
+      h1.main__title
+        == yield_content :title
+
+      .message__body
+        == yield_content :content

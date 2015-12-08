@@ -1,0 +1,14 @@
+---
+layout: layout_articles
+---
+
+== content_for :title do
+  | Archive ::
+  span<
+    - case page_type
+      - when 'day'
+        == Date.new(year, month, day).strftime('%B %d, %Y')
+      - when 'month'
+        == Date.new(year, month, 1).strftime('%B %Y')
+      - when 'year'
+        == year

@@ -1,0 +1,72 @@
+- title       = site_title
+- description = site_subtitle
+- url         = site_url
+- image       = site_url + '/' + images_dir + '/icon/ogp.png'
+- type        = 'article'
+- page        = ''
+
+/ 記事ページの場合
+- if current_article
+  - title = current_article.title
+  - description = strip_tags current_article.summary.gsub(/(\r\n|\r|\n|\f)/,"")
+  - url = URI.join(site_url, current_article.url)
+
+  - if current_article.data.eyecatch
+    - image = URI.join(site_url, current_article.data.eyecatch)
+
+/ タイトルが渡されてきた場合
+- if yield_content :title
+  - title = yield_content :title
+
+/ 説明文が渡されてきた場合
+- if yield_content :description
+  - description = yield_content :description
+
+/ タイプが渡されてきた場合
+- if yield_content :pagetype
+  - page = yield_content :pagetype
+  - if page == 'top'
+    - title = site_title
+    - type  = 'website'
+
+doctype 5
+
+html[lang="ja-JP" itemscope itemtype="http://schema.org/Blog"]
+
+  head
+    meta[charset="utf-8"]
+
+    - if title == site_title
+      title
+        == title
+    - else
+      title
+        | #{title} :: #{site_title}
+
+    meta[name="description" content="#{description}"]
+    meta[name="viewport" content="width=device-width"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
+    link[rel="author" href="/about/"]
+    link[rel="icon" href="/favicon.ico"]
+    link[rel="apple-touch-icon" href="/#{images_dir}/icon/apple-touch-icon.png"]
+    link[rel="apple-touch-icon-precomposed" href="/#{images_dir}/icon/apple-touch-icon-precomposed.png"]
+    link[rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"]
+
+    == feed_tag :rss, '/feed.rss', :title => 'RSS2.0', :rel => 'alternate'
+    == feed_tag :atom, '/feed.atom', :title => 'Atom', :rel => 'alternate'
+
+    == partial "partials/styles"
+    == yield_content :styles
+
+    == partial "partials/ogp", :locals => { :title => title, :description => description, :url => url, :image => image, :type => type }
+
+  body
+
+    == partial "partials/header"
+
+    .contents
+      == yield
+
+    == partial "partials/footer"
+    == partial "partials/scripts"
+    == yield_content :scripts

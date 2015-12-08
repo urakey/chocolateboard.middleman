@@ -1,0 +1,105 @@
+//==============================================================================
+//  Prettify: Custom Flatland Dark
+//==============================================================================
+
+pre {
+
+  &.prettyprint {
+    background: #26292c !important;
+    word-wrap: normal;
+
+    code {
+      margin: 0;
+      color: #fff;
+    }
+  }
+
+  .nocode {
+    background-color: none;
+    color: #000;
+  }
+
+  .str {
+    color: #c4e2f2;
+  }
+
+  .kwd {
+    color: #d19fde;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #798188;
+  }
+
+  .typ {
+    color: #ffb454;
+  }
+
+  .lit {
+    color: #b7d877;
+  }
+
+  .pun {
+    color: #f8f8f8;
+  }
+
+  .pln {
+    color: #eee;
+  }
+
+  .tag {
+    color: #d19fde;
+  }
+
+  .atn {
+    color: #8fceab;
+  }
+
+  .atv {
+    color: #ffa0d6;
+  }
+
+  .dec {
+    color: #ffb454;
+  }
+}
+
+.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #aeaeae;
+}
+
+.L0,
+.L1,
+.L2,
+.L3,
+.L5,
+.L6,
+.L7,
+.L8 { list-style-type: none; }
+
+.L1,
+.L3,
+.L5,
+.L7,
+.L9 { }
+
+@media print {
+  pre {
+
+    &.prettify { background-color: none; }
+
+    .str { color: #060; }
+    .kwd { color: #006; font-weight: bold; }
+    .com { color: #600; font-style: italic; }
+    .typ { color: #404; font-weight: bold; }
+    .lit { color: #044; }
+    .pun { color: #440; }
+    .pln { color: #000; }
+    .tag { color: #006; font-weight: bold; }
+    .atn { color: #404; }
+    .atv { color: #060; }
+  }
+}

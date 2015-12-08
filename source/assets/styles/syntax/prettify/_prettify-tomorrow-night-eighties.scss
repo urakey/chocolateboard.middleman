@@ -1,0 +1,120 @@
+//==============================================================================
+//  Prettify: Tomorrow Night Eighties
+//==============================================================================
+
+pre {
+
+  &.prettyprint {
+    background: #2d2d2d !important;
+    word-wrap: normal;
+
+    code {
+      margin: 0;
+      color: #fff;
+    }
+  }
+
+  .nocode {
+    background-color: none;
+    color: #000;
+  }
+
+  .str {
+    color: #99cc99;
+  }
+
+  .kwd {
+    color: #cc99cc;
+  }
+
+  .com {
+    color: #999999;
+  }
+
+  .typ {
+    color: #6699cc;
+  }
+
+  .lit {
+    color: #f99157;
+  }
+
+  .pun {
+    color: #cccccc;
+  }
+
+  .opn {
+    color: #cccccc;
+  }
+
+  .clo {
+    color: #cccccc;
+  }
+
+  .pln {
+    color: #cccccc;
+  }
+
+  .tag {
+    color: #f2777a;
+  }
+
+  .atn {
+    color: #f99157;
+  }
+
+  .atv {
+    color: #66cccc;
+  }
+
+  .dec {
+    color: #f99157;
+  }
+
+  .var {
+    color: #f2777a;
+  }
+
+  .fun {
+    color: #6699cc;
+  }
+}
+
+.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #aeaeae;
+}
+
+.L0,
+.L1,
+.L2,
+.L3,
+.L5,
+.L6,
+.L7,
+.L8 { list-style-type: none; }
+
+.L1,
+.L3,
+.L5,
+.L7,
+.L9 { }
+
+@media print {
+  pre {
+
+    &.prettify { background-color: none; }
+
+    .str { color: #060; }
+    .kwd { color: #006; font-weight: bold; }
+    .com { color: #600; font-style: italic; }
+    .typ { color: #404; font-weight: bold; }
+    .lit { color: #044; }
+    .pun { color: #440; }
+    .pln { color: #000; }
+    .tag { color: #006; font-weight: bold; }
+    .atn { color: #404; }
+    .atv { color: #060; }
+  }
+}

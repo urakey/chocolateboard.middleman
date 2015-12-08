@@ -1,0 +1,142 @@
+//==============================================================================
+//  Module: Side
+//==============================================================================
+
+.side {
+  @include linkColor($base-link-color, $base-link-color, "underline", "none", $base-link-color, true);
+
+  width: $content-width;
+  padding: 0 0 50px;
+
+  @include respondTo(large) {
+    width: 100%;
+  }
+
+  aside,
+  nav {
+    @include fontSize(14);
+  }
+}
+
+.side__title {
+  @extend %title;
+
+  margin: $mlv2 0 2em;
+}
+
+.side__list {
+  @extend %list;
+  @include fontSize(12);
+}
+
+.side__list--tags {
+  @extend %resetlist;
+  @include fontSize(12);
+
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 0 0 4px 14px;
+  }
+
+  a {
+    @include border-radius(0 3px 3px 0);
+
+    position: relative;
+    display: block;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    text-decoration: none;
+    background: $key-color-1;
+    &:visited {
+      color: white;
+    }
+    &:hover {
+      @include transition-property(opacity);
+      @include transition-duration(.5s);
+
+      color: white;
+      opacity: .7;
+    }
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -20px;
+      display: block;
+      width: 0;
+      height: 4px;
+      border-color: transparent $key-color-1 transparent transparent;
+      border-style: solid;
+      border-width: 10px;
+      content: "";
+    }
+    &::after {
+      @include border-radius(2px);
+
+      position: absolute;
+      top: 10px;
+      left: -4px;
+      display: block;
+      width: 4px;
+      height: 4px;
+      background: white;
+      content: "";
+    }
+  }
+}
+
+// .side__list--categories {
+//   @extend .side__list;
+//   li::before {
+//     content: "\f07b";
+//   }
+// }
+//
+// .side__list--archives {
+//   @extend .side__list;
+//   li::before {
+//     content: "\f187";
+//   }
+// }
+//
+// .side__list--hatena {
+//   @extend .side__list;
+//   li::before {
+//     content: "\f097";
+//   }
+// }
+
+.side__recommend {
+  @extend %base;
+
+  padding: 15px 10px 10px;
+  margin: 15px 0;
+  line-height: 1.5;
+
+  figure {
+    @extend %clearfix;
+
+    margin: 0 0 10px;
+
+    img {
+      @include box-shadow(rgba($key-color-2, .2) 1px 1px 5px -1px);
+
+      float: left;
+      width: 100px;
+    }
+
+    figcaption {
+      margin-left: 120px;
+    }
+  }
+
+  p {
+    @extend %notes;
+
+    margin: 0;
+  }
+}

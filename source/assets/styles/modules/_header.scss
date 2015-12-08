@@ -1,0 +1,59 @@
+//==============================================================================
+//  Module: Header
+//==============================================================================
+
+.header {
+  @include wrapper;
+
+  position: relative;
+  padding-top: $mlv1;
+}
+
+.header__id {
+  @include linkColor($key-color-2, $key-color-2, "none", "none", $key-color-2-l, true);
+  // @include fontSize(28);
+
+  font-family: $logo-font;
+  font-weight: normal;
+
+  a {
+    @include background-size(contain);
+
+    display: block;
+    width: 250px;
+    text-indent: -7777px;
+    background-image: inline-image("svg/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.header__navigation {
+  @include fontSize(13);
+
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  margin: 0;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+
+  @include respondTo(medium) {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+
+  ul {
+    @extend %resetlist;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 1em;
+
+    @include respondTo(small) {
+      margin: 0 .5em;
+    }
+  }
+}

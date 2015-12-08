@@ -1,0 +1,74 @@
+== wrap_layout :layout do
+
+  .main[role="main"]
+
+    article.article[itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"]
+
+      - if current_article.data.project
+        p.article__project 
+          == current_article.data.project
+        
+      h1.article__title[itemprop="name"]
+        == current_article.title
+
+      footer.article__footer
+        ul
+          li
+            span
+              | Posted on
+            time[datetime="#{current_article.date.strftime '%Y-%m-%dT%X+09:00'}" itemprop="datePublished"]
+              == current_article.date.strftime '%B %d, %Y'
+          li
+            span
+              | Categories
+            == link_to current_article.data.category, category_path(current_article.data.category), :rel => 'tag category'
+          li[itemprop="keywords"]
+            span
+              | Tags
+            == current_article.data.tags.split(', ').collect{|t| link_to t, tag_path(t), :rel => 'tag' }.join(", ")
+
+      - if current_article.data.eyecatch
+        figure.article__eyecatch
+          img.Lazy[src="/assets/images/cmn_eyecatch.png" data-original="#{current_article.data.eyecatch}" alt="" itemprop="image"]
+          - if current_article.data.eyecatchCap
+            figcaption
+              - if current_article.data.eyecatchCap_link
+                == link_to current_article.data.eyecatchCap, current_article.data.eyecatchCap_link
+              - else
+                == current_article.data.eyecatchCap
+
+      .article__body[itemprop="articleBody"]
+        == current_article.body
+        hr
+        
+      / .article__section
+      /   h2.article__sectionTitle
+      /     | Share
+      /   ul.article__sectionShare
+      /     li.twitter
+      /       a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="urakey"
+      /         | Tweet
+      /     li.facebook
+      /       .fb-like data-href="#{site_url}#{current_article.url}" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"
+      /     li.pocket
+      /       a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"
+      /         | Pocket
+      /     li.hatena
+      /       a href="#{site_url}#{current_article.url}" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"
+      /         img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"
+
+      section.article__section
+        h2.article__sectionTitle
+          | Similar posts
+        ul.article__sectionList
+          - current_article.similar_articles.first(5).each do|a|
+            li
+              == link_to a.title, a.url
+    
+      / section.article__section
+      /   h2.article__section_title
+      /     | Comments
+      /   #disqus_thread
+
+    == partial "partials/pagination"
+  == partial "partials/sidebar"

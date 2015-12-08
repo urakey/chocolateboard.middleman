@@ -1,0 +1,12 @@
+== wrap_layout :layout do
+
+  .main[role="main"]
+
+    section.article[itemscope itemtype="http://schema.org/Article"]
+      h1.main__title
+        == yield_content :title
+
+      .article__body[itemprop="articleBody"]
+        == yield_content :content
+
+  == partial "partials/sidebar"

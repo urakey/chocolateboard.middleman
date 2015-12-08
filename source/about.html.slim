@@ -1,0 +1,166 @@
+---
+layout: layout_page
+---
+
+== content_for :title do
+  | About
+
+== content_for :content do
+
+  
+  h2 Index
+  ul
+    li == link_to 'About this website.', '#website'
+    li == link_to 'Self introduction.', '#profile'
+    li == link_to 'Website recipe.', '#recipe'
+    
+  hr
+    
+  section#website
+    h2
+      | About this website.
+    p
+      em>
+        | chocolateboard
+      | という名前に深い意味はありません。
+      br
+      | ドメイン取得時に所持していたスケートボードの板が
+      a<[href="http://www.chocolateskateboards.com/" target="_blank" rel="nofollow"]
+        | Chocolate Skateboards
+      | のものだったこと、チョコレートが好きなこと、デッキとチョコレートで板チョコっぽいなと思ったことなどから過去に取得したドメインです。
+    p
+      em>
+        | chocolateboard
+      | のコンテンツは Middleman で更新しています。
+    p
+      | Chrome・Safari・Firefox・Opera 最新版でのみ意図した表示となっております。
+      br
+      | IE8 以下は対応する予定がありません。
+    p
+      | 勉強したことのメモをここに書いていこうと思っています。
+    p
+      | 実験したりなどもしておりますので、画面が真っ白になっているときは大体なにかに失敗している時です mm
+      br
+      | ご了承くださいませ。
+    p.link
+      == link_to 'プライバシーポリシーについてはこちら', '/privacy/'
+
+  section#profile
+    h2 Self introduction.
+    h3 Aki Fukayama
+    figure
+      img[src="#{'/' + images_dir + '/icon/profile.png'}" alt="" width="90" height="90"]
+    p UI designer + Front-end engineer
+    p 渋谷で働いています。個人的に Swift 入門中。
+    p
+      | インターネットでは主に
+      em<>
+        | akey
+      | or
+      em<>
+        | urakey
+      | というアカウントを取得しています。
+    p
+      | 岩手県盛岡市出身、東京都在住、実家は仙台。
+      br
+      | 好きなものはチョコレートとコーヒーとねことクワズイモとガジュマルと文具。漫画と小説もスキです。
+    p
+      | cafe staff → apparel → apparel recycle → designer + ME → UI designer + Front-end engineer（※いまここ）
+    p
+      | 人との縁を大切に、気の赴くままに生きてきました。
+      br
+      | いろんな人に出会えてよかったー。と思っています。
+    
+    h3 Tools
+    p
+      | デザインは主に
+      em<> Sketch
+      | or
+      em<> Photoshop
+      | で行っています。
+    p
+      | コーディングに使用するエディタは
+      em<> Atom
+      | or
+      em<> Sublime Text
+      | です。
+      br
+      | タスクランナーは
+      em<> gulp
+      | or
+      em<> Grunt
+      | を使うことが多いです。
+      br
+      | 静的なページを作るときは
+      em<> ECT
+      | か
+      em<> EJS
+      | か
+      em<> SWIG
+      | or
+      em<> Middleman
+      | を使います。
+      br
+      | CSSは
+      em<> Sass
+      | +
+      em<> Bourbon
+      | or
+      em<> Compass
+      | で書いています。
+
+  section#recipe
+    h2 Recipe
+    h3 Design
+    p
+      | Sass のグローバルな変数として、キーカラー1色とダークカラー1色を持っています。
+      br
+      | タブレットやスマートフォンの対応はメディアクエリで対応しているのみです。
+      br
+      | 主にカラム幅の変更・組み換え・表示非表示切り替えのみ。
+    p
+      | アイコンは
+      em<> Font Awesome
+      | のものです。
+    ul
+      li
+        a[href="http://fortawesome.github.com/Font-Awesome/" target="_blank" rel="nofollow"]
+          | Font Awesome
+      li
+        a[href="http://www.google.com/fonts/specimen/PT+Sans" target="_blank" rel="nofollow"]
+          | Google Web Fonts: PT Sans
+    h3 Coding
+    p CSS は Sass の SCSS 記法を採用しています。
+    ul
+      li
+        a[href="https://github.com/" target="_blank" rel="nofollow"]
+          | GitHub
+      li
+        a[href="https://atom.io/" target="_blank" rel="nofollow"]
+          | Atom
+      li
+        a[href="http://necolas.github.com/normalize.css/" target="_blank" rel="nofollow"]
+          | normalize.css
+      li
+        a[href="http://sass-lang.com/" target="_blank" rel="nofollow"]
+          | Sass / SCSS
+      li
+        a[href="http://compass-style.org/" target="_blank" rel="nofollow"]
+          | Compass
+      li
+        a[href="http://bower.io/" target="_blank" rel="nofollow"]
+          | Bower
+      li
+        a[href="https://middlemanapp.com/" target="_blank" rel="nofollow"]
+          | Middleman
+      li
+        a[href="https://middlemanapp.com/basics/blogging/" target="_blank" rel="nofollow"]
+          | Middleman blog
+      li
+        a[href="http://slim-lang.com/" target="_blank" rel="nofollow"]
+          | Slim
+      li
+        a[href="https://www.heroku.com/" target="_blank" rel="nofollow"]
+          | Heroku
+      
+  hr

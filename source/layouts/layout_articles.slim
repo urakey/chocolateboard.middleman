@@ -1,0 +1,45 @@
+== wrap_layout :layout do
+
+  .main[role="main"]
+    - if yield :title
+      h2.main__title
+        == yield_content :title
+    - else
+      h2.main__title
+        | Entries
+
+    ul.articleList
+      - page_articles.each do |a|
+        li.articleList__item
+          article.articleListItem[itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"]
+
+            figure.articleListItem__eyecatch
+              a[href="#{a.url}" itemprop="url"]
+                img.Lazy[src="/assets/images/cmn_eyecatch.png" data-original="#{a.data.eyecatch}" alt="" itemprop="image"]
+
+            - if a.data.project
+              p.articleListItem__project
+                == a.data.project
+        
+            h1.articleListItem__title[itemprop="name"]
+              a[href="#{a.url}" itemprop="url"]
+                == a.title
+
+            .articleListItem__body[itemprop="description"]
+              p
+                == strip_tags a.summary.gsub(/(\r\n|\r|\n|\f)/,"")
+
+            footer.article__footer
+              ul
+                li
+                  span
+                    | Posted on
+                  time[datetime="#{a.date.strftime '%Y-%m-%dT%X+09:00'}" itemprop="datePublished"]
+                    == a.date.strftime '%B %d, %Y'
+                li
+                  span
+                    | Categories
+                  == link_to a.data.category, category_path(a.data.category), :rel => 'tag category'
+
+    == partial "partials/pagination"
+  == partial "partials/sidebar"

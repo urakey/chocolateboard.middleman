@@ -1,0 +1,51 @@
+footer.footer[role="contentinfo"]
+
+  h2.assistive
+    | About this site.
+
+  address.footer__byline[itemprop="author" itemscope itemtype="http://schema.org/Person"]
+    p
+      | Designed &amp; developed by
+      a<[href="/about/#profile" itemprop="url"]
+        span[itemprop="name"]
+          | akey
+      | .
+
+  p.footer__license
+    small
+      | Except where otherwise noted,
+      br
+      | content on this site is licensed under a Creative Commons
+      a<[href="http://creativecommons.org/licenses/by-nc/4.0/"]
+        | Attribution-Noncommercial 4.0 License
+      | .
+
+  .footer__social
+    h3.assistive
+      | Elsewhere
+    ul
+      li.footer__social_feed
+        == link_to 'Subscribe to RSS Feed', feed_rss_url
+      li.footer__social_twitter
+        == link_to 'Twitter', twitter_url
+      li.footer__social_facebook
+        == link_to 'Facebook', facebook_url
+      li.footer__social_pinterest
+        == link_to 'Pinterest', pinterest_url
+      li.footer__social_github
+        == link_to 'github', github_url
+
+  .footer__links
+    h3.assistive
+      | Copyright &amp; Links
+    p 
+      small
+        | &copy; 2013-#{Time.now.year} chocolateboard.
+        wbr<
+        | Building this site with
+        a<>[href="http://middlemanapp.com/"]
+          | Middleman
+        | and hosting it on
+        a<[href="https://pages.github.com/"]
+          | GitHub Pages
+        | .

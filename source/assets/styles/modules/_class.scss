@@ -1,0 +1,50 @@
+//==============================================================================
+//  Module: Class
+//==============================================================================
+
+.assistive {
+  display: none;
+}
+
+.transform--none {
+  text-transform: none;
+}
+
+.scrollable-horizontal {
+  display: block;
+  margin: $mlv4 auto;
+  overflow-x: auto;
+  // -webkit-overflow-scrolling: touch;
+  & > * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $background;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+  }
+}
+
+.notes {
+  @extend %notes;
+  &::before {
+    content: "※ ";
+  }
+}
+
+.text {
+  &--aligncenter {
+    text-align: center;
+  }
+  &--alignleft {
+    text-align: left;
+  }
+  &--alignright {
+    text-align: right;
+  }
+}

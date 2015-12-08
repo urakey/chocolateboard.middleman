@@ -1,0 +1,17 @@
+== wrap_layout :layout do
+
+  section.main
+
+    h2.main__title
+      | Recent posts
+    ul.main--introduction__list
+      - page_articles.each do |a|
+        li[itemscope itemtype="http://schema.org/BlogPosting"]
+          time[datetime="#{a.date.strftime('%Y-%m-%dT%X+09:00')}" itemprop="datePublished"]
+            == a.date.strftime('%Y-%m-%d')
+          == link_to a.title, a.url, :itemprop => 'url'
+
+    h3.main__title
+      | About this website
+    p.link
+      == link_to '詳しくは About ページをどうぞ ^^', '/about/', :itemprop => 'url'

@@ -1,0 +1,25 @@
+{
+  "name": "works.chocolateboard",
+  "version": "1.0.0",
+  "description": "Show my works.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urakey/works.chocolateboard.git"
+  },
+  "author": "Aki Fukayama <akey@chocolateboard.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urakey/works.chocolateboard/issues"
+  },
+  "homepage": "https://github.com/urakey/works.chocolateboard#readme",
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "html5shiv": "^3.7.3",
+    "jquery": "^2.1.4",
+    "jquery_lazyload": "^1.9.3",
+    "modularized-normalize-scss": "^3.0.3"
+  }
+}
