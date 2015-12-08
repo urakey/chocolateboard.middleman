@@ -20,58 +20,35 @@
 }
 
 .main__pagination {
-  @include linkColor(white, white, "none", "none", $key-color-1);
+  text-align: center;
+}
 
-  height: 3rem;
-  margin: 0 auto;
+.main__pagination-prev {
+  display: inline-block;
+  color: $key-color-2-ll;
 
-  ul {
-    @extend %resetlist;
+  a::before,
+  span::before {
+    @extend %icon;
 
-    position: relative;
-  }
-
-  li {
-    position: absolute;
-    top: 0;
-    display: inline-block;
-    width: 3rem;
-    height: 3rem;
-    &.prev {
-      left: 0;
-      a::before {
-        content: "\f053";
-      }
-    }
-    &.next {
-      right: 0;
-      a::before {
-        content: "\f054";
-      }
-    }
-  }
-  
-  a {
-    @include border-radius(1.5rem);
-
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    overflow: hidden;
-    line-height: 3rem;
-    background: $key-color-1;
-    &:hover {
-      @include transition-property(color, background-color);
-      @include transition-duration(.3s);
-
-      background: white;
-    }
-    &::before {
-      @extend %icon;
-
-      display: block;
-      margin: 0 auto;
-      font-size: 1.3rem;
-    }
+    content: "\f100";
   }
 }
+
+.main__pagination-next {
+  display: inline-block;
+  color: $key-color-2-ll;
+
+  a::after,
+  span::after {
+    @extend %icon;
+
+    content: "\f101";
+  }
+}
+
+.main__pagination-number {
+  display: inline-block;
+  margin: 0 2rem;
+}
+

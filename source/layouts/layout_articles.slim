@@ -41,5 +41,19 @@
                     | Categories
                   == link_to a.data.category, category_path(a.data.category), :rel => 'tag category'
 
-    == partial "partials/pagination"
+    - if paginate && num_pages
+      .main__pagination
+        p.main__pagination-prev
+          - if prev_page
+            == link_to 'Prev page', prev_page
+          - else
+          span Prev page
+        p.main__pagination-number
+          | #{page_number} / #{num_pages}
+        p.main__pagination-next
+          - if next_page
+            == link_to 'Next page', next_page
+          - else
+            span Next page
+
   == partial "partials/sidebar"
