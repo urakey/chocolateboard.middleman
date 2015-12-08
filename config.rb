@@ -199,10 +199,7 @@ end
 # ==============================================================================
 # [9] Deploy
 # ==============================================================================
-# Heroku にホスティングしてるので、いったん使わない
-# activate :deploy do |deploy|
-#   deploy.method = :git
-#   deploy.branch = 'heroku-test-build'
-#   deploy.branch = 'heroku-test'
-#   deploy.branch = 'heroku-view'
-# end
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'gh-pages'
+end
