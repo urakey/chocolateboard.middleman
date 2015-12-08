@@ -1,7 +1,5 @@
-works
+chocolateboard
 =========
-
-静的サイトジェネレーターでプロトタイプをつくるリポジトリ。
 
 ## Configuration
 
