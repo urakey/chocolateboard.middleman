@@ -29,7 +29,7 @@
 
       - if current_article.data.eyecatch
         figure.article__eyecatch
-          img.Lazy[src="/assets/images/cmn_eyecatch.png" data-original="#{current_article.data.eyecatch}" alt="" itemprop="image"]
+          img[src="#{current_article.data.eyecatch}" alt="" itemprop="image"]
           - if current_article.data.eyecatchCap
             figcaption
               - if current_article.data.eyecatchCap_link
