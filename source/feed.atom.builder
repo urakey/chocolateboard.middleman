@@ -3,14 +3,14 @@ xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom", "xml:lang" => "ja" do
   xml.id URI.join(site_url, blog.options.prefix.to_s)
   xml.title site_title, :type => "text"
-  xml.subtitle site_subtitle, :type => "text"
+  xml.subtitle site_description, :type => "text"
   xml.link :rel => "self", :href => URI.join(site_url, current_page.path)
   xml.link :rel => "hub", :href => "https://pubsubhubbub.appspot.com/"
   xml.link :rel => "license", :href => "http://creativecommons.org/licenses/by-nc/4.0/"
   xml.generator "Middleman", :uri => "https://middlemanapp.com/"
   xml.author do
     xml.name site_author
-    xml.uri portfolio_url
+    xml.uri site_url
     xml.email "akey@chocolateboard.net"
   end
   xml.updated (blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?

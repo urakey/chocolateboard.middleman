@@ -4,7 +4,7 @@ xml.rss "version" => "2.0", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmln
   xml.channel do
     xml.title site_title
     xml.link URI.join(site_url, blog.options.prefix.to_s)
-    xml.description site_subtitle
+    xml.description site_description
     xml.language "ja-JP"
     xml.managingEditor "akey@chocolateboard.net (Aki Fukayama)"
     xml.atom :link, :rel => "self", :href => URI.join(site_url, current_page.path)

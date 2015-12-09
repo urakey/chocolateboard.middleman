@@ -1,7 +1,7 @@
 ---
 title: 'SUMMER SONIC 2015'
 date: 2015-08-16
-category: notes
+category: note
 tags: misc
 published: true
 

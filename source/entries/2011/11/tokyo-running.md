@@ -2,7 +2,7 @@
 project: 'HOSHIKUZU4'
 title: 'HOSHIKUZU4 1st Album [東京ランニング]'
 date: 2011-11-02
-category: portfolio
+category: works
 tags: graphic design
 published: true
 

@@ -2,7 +2,7 @@
 project: 'ReVO'
 title: 'SOLISTA Presents -歌舞伎町ルネッサンス-'
 date: 2011-10-30
-category: portfolio
+category: works
 tags: web design
 published: true
 

@@ -1,7 +1,7 @@
 ---
 title: 'Golden Week 2015'
 date: 2015-05-06
-category: notes
+category: note
 tags: misc
 published: true
 

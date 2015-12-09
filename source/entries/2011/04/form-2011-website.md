@@ -2,7 +2,7 @@
 project: 'form.'
 title: 'form. official web site'
 date: 2011-04-24
-category: portfolio
+category: works
 tags: web design
 published: true
 

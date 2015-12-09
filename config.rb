@@ -3,26 +3,24 @@
 # ==============================================================================
 Time.zone = 'Tokyo'
 
-set :build_dir, 'build/public'
+set :site_url,         'http://chocolateboard.net'
+set :site_title,       'chocolateboard.'
+set :site_description, 'Online portfolio of UI designer + Front-end engineer: akey.'
+set :site_author,      'akey'
 
-set :site_url, 'http://chocolateboard.net'
-set :site_title,    'chocolateboard'
-set :site_subtitle, 'UI designer + Front-end engineer: akey.'
-set :site_author,   'akey'
-
-set :portfolio_url, @site_url
-set :blog_url,      'http://log.chocolateboard.net'
 set :feed_atom_url, '/feed.atom'
 set :feed_rss_url,  '/feed.rss'
+
+set :blog_url,      'http://log.chocolateboard.net'
 set :twitter_url,   'https://twitter.com/urakey'
 set :facebook_url,  'https://www.facebook.com/urakey'
 set :pinterest_url, 'http://pinterest.com/urakey'
 set :github_url,    'https://github.com/urakey'
 
-set :css_dir, 'assets/styles'
-set :js_dir, 'assets/scripts'
+set :css_dir,    'assets/styles'
+set :js_dir,     'assets/scripts'
 set :images_dir, 'assets/images'
-set :fonts_dir, 'assets/fonts'
+set :fonts_dir,  'assets/fonts'
 
 # @analytics_account = false
 

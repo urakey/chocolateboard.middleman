@@ -6,7 +6,6 @@
   @extend %clearfix;
 
   width: $content-width;
-  padding: 50px 0 0;
 
   @include respondTo(large) {
     width: 100%;
@@ -51,4 +50,3 @@
   display: inline-block;
   margin: 0 2rem;
 }
-

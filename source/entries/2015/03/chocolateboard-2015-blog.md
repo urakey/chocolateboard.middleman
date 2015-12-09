@@ -1,8 +1,8 @@
 ---
 project: 'chocolateboard'
-title: 'Weblog'
+title: 'Blog v.2015'
 date: 2015-03-09
-category: portfolio
+category: works
 tags: web design
 published: true
 

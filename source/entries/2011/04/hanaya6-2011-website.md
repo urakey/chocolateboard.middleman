@@ -2,7 +2,7 @@
 project: 'HANAYA6'
 title: 'HANAYA6 official web site'
 date: 2011-04-24
-category: portfolio
+category: works
 tags: graphic design, web design
 published: true
 

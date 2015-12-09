@@ -1,8 +1,8 @@
 ---
 project: 'chocolateboard'
-title: 'Online Portfolio'
+title: 'Redesigned this website. v.2013'
 date: 2013-06-24
-category: portfolio
+category: works
 tags: web design
 published: true
 
@@ -11,8 +11,10 @@ eyecatch: '/assets/images/entries/2013/06/chocolateboard-2013-website/eyecatch.p
 
 オンラインポートフォリオを作成しました。
 
-正方形をメインモチーフに、CSS で回転させたりなどしています。  
-素っ気ないくらいシンプルなものが好きなので、好きな感じを全面に押し出しました。
+正方形をメインモチーフにしています。  
+素っ気ないくらいシンプルでちょっとだけ上品な感じのものが好きなので、そんな感じにしました。
+
+Portfolio + Notes（技術系以外の日記のようなもの）の 2 カテゴリーで更新してゆけるよう作っています。
 
 - Design
 - HTML

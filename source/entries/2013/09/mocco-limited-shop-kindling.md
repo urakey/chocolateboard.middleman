@@ -1,7 +1,7 @@
 ---
 title: 'mocco -Limited shop ”Kindling”-'
 date: 2013-09-03
-category: notes
+category: note
 tags: misc
 published: true
 

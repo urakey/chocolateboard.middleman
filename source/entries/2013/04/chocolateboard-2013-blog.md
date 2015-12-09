@@ -1,15 +1,15 @@
 ---
 project: 'chocolateboard'
-title: 'Weblog'
+title: 'Blog v.2013'
 date: 2013-04-28
-category: portfolio
+category: works
 tags: web design
 published: true
 
 eyecatch: '/assets/images/entries/2013/04/chocolateboard-2013-blog/eyecatch.png'
 ---
 
-Web 制作についてのメモ書き専用の新しいブログを作成しました。
+新しく、制作に関するメモ書き専用のブログを作成しました。マイペースに更新していきたいと思います。
 
 - Design
 - HTML

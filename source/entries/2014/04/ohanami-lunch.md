@@ -1,7 +1,7 @@
 ---
 title: 'Ohanami lunch'
 date: 2014-04-01
-category: notes
+category: note
 tags: misc
 published: true
 
