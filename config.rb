@@ -158,14 +158,14 @@ after_configuration do
   sprockets.import_asset 'font-awesome/fonts/fontawesome-webfont.eot' do
     Pathname.new(fonts_dir + '/fontawesome-webfont.eot')
   end
-  # sprockets.import_asset 'font-awesome/fonts/fontawesome-webfont.svg' do
-  #   Pathname.new(  fonts_dir + '/fontawesome-webfont.svg')
-  # end
   sprockets.import_asset 'font-awesome/fonts/fontawesome-webfont.ttf' do
     Pathname.new(fonts_dir + '/fontawesome-webfont.ttf')
   end
   sprockets.import_asset 'font-awesome/fonts/fontawesome-webfont.woff' do
     Pathname.new(fonts_dir + '/fontawesome-webfont.woff')
+  end
+  sprockets.import_asset 'font-awesome/fonts/fontawesome-webfont.woff2' do
+    Pathname.new(fonts_dir + '/fontawesome-webfont.woff2')
   end
   sprockets.import_asset 'font-awesome/fonts/FontAwesome.otf' do
     Pathname.new(fonts_dir + '/FontAwesome.otf')

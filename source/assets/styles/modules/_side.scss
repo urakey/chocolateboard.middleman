@@ -89,26 +89,23 @@
   }
 }
 
-// .side__list--categories {
-//   @extend .side__list;
-//   li::before {
-//     content: "\f07b";
-//   }
-// }
-//
-// .side__list--archives {
-//   @extend .side__list;
-//   li::before {
-//     content: "\f187";
-//   }
-// }
-//
-// .side__list--hatena {
-//   @extend .side__list;
-//   li::before {
-//     content: "\f097";
-//   }
-// }
+.side__list--photos {
+  @extend %resetlist;
+  @extend %image-fit;
+  @include clearfix;
+
+
+  li {
+    width: 9%;
+    float: left;
+    margin: 0 0 1% 1%;
+
+    @include respondTo(medium) {
+      width: 18%;
+      margin: 0 0 2% 2%;
+    }
+  }
+}
 
 .side__recommend {
   @extend %base;

@@ -7,16 +7,13 @@
 }
 
 .articleListItem__eyecatch {
+  @extend %image-fit;
+
   min-height: 150px;
   margin: 0 0 $mlv5;
   background-image: inline-image("svg/bg.svg");
   background-position: center center;
   background-repeat: repeat;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 .articleListItem__project {

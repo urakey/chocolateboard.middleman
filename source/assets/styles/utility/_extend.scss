@@ -69,6 +69,14 @@
   }
 }
 
+%image-fit {
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 %border-top {
   border-top: $border 1px solid;
 }

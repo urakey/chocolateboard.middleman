@@ -28,7 +28,11 @@
           a[href="#{blog_year_path(year)}"]
             | #{year}
 
-  / aside
-  /   h2.side__title
-  /     | Hatena
-  /   ul.side__list--hatena.HatenaEntries
+  aside
+    h2.side__title
+      | Blog
+    ul#HatenaEntries.side__list
+  
+    h2.side__title
+      | Flickr
+    ul#FlickrPhotos.side__list--photos

@@ -8,15 +8,14 @@ var choco = choco || {};
    * @class Hatena
    */
 
-  function Hatena(url, sort, $dom, tag) {
-    this.url  = url;
-    this.sort = sort;
-    this.$dom = $dom;
-    this.tag  = tag || 'p';
+  function Hatena($elem) {
+    this.$elem = $elem;
+    this.tag   = 'li';
+    this.sort  = 'count';
 
     this.init.apply(this);
   }
-
+  Hatena.URL = 'http://log.chocolateboard.net';
   Hatena.prototype = {
 
     init: function() {
@@ -32,12 +31,12 @@ var choco = choco || {};
         url:  'http://b.hatena.ne.jp/entrylist/json',
         data: {
           sort: _this.sort,
-          url: _this.url
+          url: Hatena.URL
         },
         dataType: 'jsonp',
         jsonp : 'callback',
         success: function(data) {
-          _this.appendHtml(_this.$dom, _this.setDataForEachEntries(data));
+          _this.appendHtml(_this.$elem, _this.setDataForEachEntries(data));
           d.resolve();
         },
         error: function(e) {
@@ -73,11 +72,11 @@ var choco = choco || {};
       return newCommers;
     },
 
-    appendHtml: function($dom, htmlSrcArray) {
+    appendHtml: function($elem, htmlSrcArray) {
 
       if(htmlSrcArray.length <= 0) return;
       $.each(htmlSrcArray, function(index, htmlSrc){
-        $dom.append(htmlSrc);
+        $elem.append(htmlSrc);
       });
     }
   };
