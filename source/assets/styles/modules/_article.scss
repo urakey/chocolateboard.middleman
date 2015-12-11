@@ -222,20 +222,19 @@
 
   figure {
     max-width: 100%;
+    margin: $mlv4 0 $mlv4 $mlv5;
 
     @include respondTo(large) {
       margin-right: auto;
       margin-left: auto;
     }
 
-    margin: $mlv4 0 $mlv4 $mlv5;
-
     img {
       @include box-shadow(rgba($key-color-2, .2) 1px 1px 5px -1px);
 
       max-width: 100%;
     }
-    
+
     figcaption {
       @extend %notes;
       @include linkColor($key-color-2-ll, $key-color-2-ll);
@@ -244,6 +243,7 @@
       font-style: italic;
     }
   }
+
 
   blockquote {
     @extend %base;
