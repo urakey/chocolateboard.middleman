@@ -163,7 +163,7 @@
   ul {
     @extend %resetlist;
 
-    margin: $mlv4 0 $mlv4 $mlv5;
+    margin: $mlv5 0 $mlv5 $mlv5;
 
     @include respondTo(large) {
       margin-right: auto;
