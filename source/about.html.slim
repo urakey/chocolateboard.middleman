@@ -10,15 +10,80 @@ layout: layout_page
   
   h2 Index
   ul
-    li == link_to 'About this website.', '#website'
     li == link_to 'Self introduction.', '#profile'
+    li == link_to 'About this website.', '#website'
     li == link_to 'Website recipe.', '#recipe'
     
   hr
     
+  section#profile
+    h2 Self introduction.
+    figure
+      img[src="#{'/' + images_dir + '/icon/profile.png'}" alt="" width="90" height="90"]
+    p
+      | Aki Fukayama [akey]
+      br
+      | Service &amp; UI designer + Front-end engineer
+    p
+      | 岩手県盛岡市出身。東京都在住。実家は仙台。
+      br
+      | 某専門学校のスタイリスト学科を卒業後アパレル業界内をふらふらする。
+      br
+      | ある日突然 JOB チェンジに目覚め Design と HTML/CSS の勉強を始める。2007年の暮れに Web 業界へ飛び込む。
+    / p 
+    /   | 2008年 制作会社で修行
+    /   br
+    /   | 2009年 株式会社 凪 / Designer + Markup engineer
+    /   br
+    /   | 2013年 株式会社 ディー・エヌ・エー / Service &amp; UI designer + Front-end engineer
+    /   br
+    /   | 2016年 株式会社 DeNAトラベル / Service &amp; UI designer + Front-end engineer
+    p
+      | iOS &amp; Android アプリや Web のデザインをしています。個人的にお仕事をいただいたりもしています。
+      br
+      | 現在、Swift &amp; Ruby に入門中。
+    p 
+      | 好きなもの → ねこ / コーヒー / チョコレート / 文具 / スニーカーなど。
+      br
+      | 最近 Prison Break に夢中でした。
+      
+    h3 Tools
+    p 日常的に関わっているツールや言語。
+    ul
+      li Photoshop
+      li Illustrator
+      li Sketch
+      li Atom
+      li Sublime Text
+      li Vim ※入門中
+      li HTML
+      li CSS [Sass, SCSS, Bourbon, Compass]
+      li JavaScript
+      li gulp, Grunt
+      li Middleman
+      li Swift
+      li GitHub
+    p プロジェクトで関わったことのある言語など。
+    ul
+      li Ruby [Sinatra, Ruby on Rails, Slim, ERB]
+      li Perl [Xslate]
+      li PHP [CakePHP, WordPress, Twig]
+      li Java
+
+    h3 Getting in touch.
+    p akey[at]chocolateboard.net ヘメールしていただくか、SNS からご連絡ください ;D
+    ul
+      li
+        == link_to 'Twitter', twitter_url
+      li
+        == link_to 'Facebook', facebook_url
+      li
+        == link_to 'Pinterest', pinterest_url
+      li
+        == link_to 'GitHub', github_url
+
   section#website
-    h2
-      | About this website.
+    h2 About this website.
     p
       em>
         | chocolateboard
@@ -30,7 +95,7 @@ layout: layout_page
       | のものだったこと、チョコレートが好きなこと、デッキとチョコレートで板チョコっぽいなと思ったことなどから過去に取得したドメインです。
     p
       em>
-        | chocolateboard
+        | #{site_title}
       | のコンテンツは Middleman で更新しています。
     p
       | Chrome・Safari・Firefox・Opera 最新版でのみ意図した表示となっております。
@@ -43,74 +108,10 @@ layout: layout_page
       br
       | ご了承くださいませ。
     p.link
-      == link_to 'プライバシーポリシーについてはこちら', '/privacy/'
-
-  section#profile
-    h2 Self introduction.
-    h3 Aki Fukayama
-    figure
-      img[src="#{'/' + images_dir + '/icon/profile.png'}" alt="" width="90" height="90"]
-    p UI designer + Front-end engineer
-    p 渋谷で働いています。個人的に Swift 入門中。
-    p
-      | インターネットでは主に
-      em<>
-        | akey
-      | or
-      em<>
-        | urakey
-      | というアカウントを取得しています。
-    p
-      | 岩手県盛岡市出身、東京都在住、実家は仙台。
-      br
-      | 好きなものはチョコレートとコーヒーとねことクワズイモとガジュマルと文具。漫画と小説もスキです。
-    p
-      | cafe staff → apparel → apparel recycle → designer + ME → UI designer + Front-end engineer（※いまここ）
-    p
-      | 人との縁を大切に、気の赴くままに生きてきました。
-      br
-      | いろんな人に出会えてよかったー。と思っています。
-    
-    h3 Tools
-    p
-      | デザインは主に
-      em<> Sketch
-      | or
-      em<> Photoshop
-      | で行っています。
-    p
-      | コーディングに使用するエディタは
-      em<> Atom
-      | or
-      em<> Sublime Text
-      | です。
-      br
-      | タスクランナーは
-      em<> gulp
-      | or
-      em<> Grunt
-      | を使うことが多いです。
-      br
-      | 静的なページを作るときは
-      em<> ECT
-      | か
-      em<> EJS
-      | か
-      em<> SWIG
-      | or
-      em<> Middleman
-      | を使います。
-      br
-      | CSSは
-      em<> Sass
-      | +
-      em<> Bourbon
-      | or
-      em<> Compass
-      | で書いています。
-
+      == link_to 'プライバシーポリシーについてはこちら', '/privacy/'      
+  
   section#recipe
-    h2 Recipe
+    h2 Website recipe.
     h3 Design
     p
       | Sass のグローバルな変数として、キーカラー1色とダークカラー1色を持っています。
@@ -160,7 +161,5 @@ layout: layout_page
         a[href="http://slim-lang.com/" target="_blank" rel="nofollow"]
           | Slim
       li
-        a[href="https://www.heroku.com/" target="_blank" rel="nofollow"]
-          | Heroku
-      
-  hr
+        a[href="https://pages.github.com/" target="_blank" rel="nofollow"]
+          | GitHub Pages

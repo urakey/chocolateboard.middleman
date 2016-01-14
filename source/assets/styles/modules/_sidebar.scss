@@ -2,11 +2,10 @@
 //  Module: Side
 //==============================================================================
 
-.side {
+.sidebar {
   @include linkColor($base-link-color, $base-link-color, "underline", "none", $base-link-color, true);
 
   width: $content-width;
-  padding: 0 0 50px;
 
   @include respondTo(large) {
     width: 100%;
@@ -18,18 +17,18 @@
   }
 }
 
-.side__title {
+.sidebar__title {
   @extend %title;
 
   margin: $mlv2 0 2em;
 }
 
-.side__list {
+.sidebar__list {
   @extend %list;
   @include fontSize(12);
 }
 
-.side__list--tags {
+.sidebar__list--tags {
   @extend %resetlist;
   @include fontSize(12);
 
@@ -89,7 +88,7 @@
   }
 }
 
-.side__list--photos {
+.sidebar__list--photos {
   @extend %resetlist;
   @extend %image-fit;
   @include clearfix;
@@ -107,7 +106,7 @@
   }
 }
 
-.side__recommend {
+.sidebar__recommend {
   @extend %base;
 
   padding: 15px 10px 10px;
