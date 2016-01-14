@@ -1,17 +1,17 @@
-.side
+.sidebar
 
   nav
-    h2.side__title
+    h2.sidebar__title
       | Tags
-    ul.side__list--tags
+    ul.sidebar__list--tags
       - blog.tags.each do |t, articles|
         li
           == link_to t, tag_path(t), :rel => 'tag'
 
   nav
-    h2.side__title
+    h2.sidebar__title
       | Categories
-    ul.side__list
+    ul.sidebar__list
       - blog.articles.group_by {|a| a.data.category }.each do |c, articles|
         li
           == link_to c, category_path(c), :rel => 'tag category'
@@ -20,19 +20,19 @@
           | )
 
   nav
-    h2.side__title
+    h2.sidebar__title
       | Archives
-    ul.side__list
+    ul.sidebar__list
       - blog.articles.group_by {|a| a.date.year }.each do |year, articles_year|
         li
           a[href="#{blog_year_path(year)}"]
             | #{year}
 
   aside
-    h2.side__title
+    h2.sidebar__title
       | Blog
-    ul#HatenaEntries.side__list
+    ul#HatenaEntries.sidebar__list
   
-    h2.side__title
+    h2.sidebar__title
       | Flickr
-    ul#FlickrPhotos.side__list--photos
+    ul#FlickrPhotos.sidebar__list--photos
