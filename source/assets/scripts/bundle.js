@@ -1,9 +1,9 @@
 //= require "jquery/dist/jquery.min.js"
 //= require "jquery_lazyload/jquery.lazyload.js"
 //= require "plugins/_jquery.smoothScroll.js"
-//= require "modules/_Browser.js"
-//= require "modules/_Hatena.js"
-//= require "modules/_Flickr.js"
+//= require "modules/_browser.js"
+//= require "modules/_hatena.js"
+//= require "modules/_flickr.js"
 
 (function($)
 {
