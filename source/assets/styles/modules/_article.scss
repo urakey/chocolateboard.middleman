@@ -246,10 +246,7 @@
 
 
   blockquote {
-    @extend %base;
-    @include fontSize(14);
-
-    position: relative;
+    max-width: 100%;
     margin: $mlv4 0 $mlv4 $mlv5;
 
     @include respondTo(large) {
@@ -257,29 +254,10 @@
       margin-left: auto;
     }
 
-    &::before {
-      @extend %icon;
-      @include fontSize(30);
-
-      position: absolute;
-      top: 0;
-      left: 10px;
-      color: $key-color-2-ll;
-      content: "\f10d";
-    }
-    &::after {
-      @extend %icon;
-      @include fontSize(30);
-
-      position: absolute;
-      right: 10px;
-      bottom: 0;
-      color: $key-color-2-ll;
-      content: "\f10e";
-    }
-
     cite {
       @extend %notes;
+      display: block;
+
       a {
         padding-left: .5em;
       }
