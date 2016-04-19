@@ -4,10 +4,6 @@
 
     article.article[itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"]
 
-      / - if current_article.data.project
-      /   p.article__project 
-      /     == current_article.data.project
-        
       h1.article__title[itemprop="name"]
         == current_article.title
 
@@ -17,7 +13,7 @@
             span
               | Posted on
             time[datetime="#{current_article.date.strftime '%Y-%m-%dT%X+09:00'}" itemprop="datePublished"]
-              == current_article.date.strftime '%B %d, %Y'
+              == current_article.date.strftime '%B %e, %Y'
           li
             span
               | Categories

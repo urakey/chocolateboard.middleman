@@ -1,5 +1,5 @@
 {
-  "name": "works.chocolateboard",
+  "name": "chocolateboard",
   "version": "1.0.0",
   "description": "Show my works.",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/urakey/works.chocolateboard.git"
+    "url": "git@github.com:urakey/chocolateboard.git"
   },
   "author": "Aki Fukayama <akey@chocolateboard.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/urakey/works.chocolateboard/issues"
+    "url": "https://github.com/urakey/chocolateboard/issues"
   },
-  "homepage": "https://github.com/urakey/works.chocolateboard#readme",
+  "homepage": "https://github.com/urakey/chocolateboard#readme",
   "dependencies": {
     "font-awesome": "^4.5.0",
     "html5shiv": "^3.7.3",

@@ -8,7 +8,7 @@ pageable: true
   span<
     - case page_type
       - when 'day'
-        == Date.new(year, month, day).strftime('%B %d, %Y')
+        == Date.new(year, month, day).strftime('%B %e, %Y')
       - when 'month'
         == Date.new(year, month, 1).strftime('%B %Y')
       - when 'year'

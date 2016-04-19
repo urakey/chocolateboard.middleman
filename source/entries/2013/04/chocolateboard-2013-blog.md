@@ -1,5 +1,4 @@
 ---
-project: 'chocolateboard'
 title: 'Blog v.2013'
 date: 2013-04-28
 category: works
@@ -9,12 +8,20 @@ published: true
 eyecatch: '/assets/images/entries/2013/04/chocolateboard-2013-blog/eyecatch.png'
 ---
 
-新しく、制作に関するメモ書き専用のブログを作成しました。マイペースに更新していきたいと思います。
+[project]
 
-- Design
-- HTML
-- CSS [sass]
-- JavaScript
-- WordPress
+[name:Blog v.2013]
 
-URL: http://log.chocolateboard.net
+[date:April 28, 2013]
+
+[url:http://log.chocolateboard.net]
+
+[credits]
+
+Design, Develop(Front-end): akey  
+
+[/credits]
+
+[/project]
+
+制作に関するメモ書き専用のブログを作成しました。マイペースに更新していきたいと思います。

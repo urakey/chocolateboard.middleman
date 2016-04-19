@@ -30,8 +30,8 @@
   }
 }
 
-.notes {
-  @extend %notes;
+.notice {
+  @extend %notice;
   &::before {
     content: "※ ";
   }
@@ -47,4 +47,38 @@
   &--alignright {
     text-align: right;
   }
+}
+
+.project {
+  margin-bottom: $mlv4;
+
+  dt {
+    display: none;
+  }
+
+  dd {
+    margin-left: 0;
+  }
+
+  &::after {
+    content: "-";
+  }
+}
+
+.project__name {
+  @include fontSize(18);
+  margin: $mlv5 0;
+}
+.project__date {
+  @include fontSize(12);
+}
+.project__url {
+  @include fontSize(12);
+}
+.project__credits {
+  @include fontSize(12);
+  margin: $mlv5 0 $mlv4;
+  color: $key-color-2-l;
+
+  p { margin: 0; }
 }

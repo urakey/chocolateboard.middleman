@@ -45,7 +45,7 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 10
+  blog.per_page = 12
   blog.page_link = 'page/{num}'
 
   blog.custom_collections = {
@@ -86,10 +86,8 @@ class CustomRenderer < Redcarpet::Render::HTML
   def image(link, title, alt_text)
     if title && alt_text
       "<figure><a href=\"#{link}\"><img src=\"#{link}\" alt=\"#{alt_text}\"></a><figcaption>#{title}</figcaption></figure>"
-    elsif alt_text == nil
-      "<img src=\"#{link}\" alt=\"\">"
     else
-      "<figure><a href=\"#{link}\"><img src=\"#{link}\" alt=\"#{alt_text}\"></a></figure>"
+      "<figure><img src=\"#{link}\" alt=\"#{alt_text}\"></figure>"
     end
   end
   def postprocess(full_document)
@@ -98,8 +96,15 @@ class CustomRenderer < Redcarpet::Render::HTML
       .gsub(/<p>\[codepen:(.+):(.+)\]<\/p>/, '<p data-height="\2" data-theme-id="7235" data-slug-hash="\1" default_tab="result" user="akey" class="codepen">See the Pen by akey (<a href="http://codepen.io/akey">@akey</a>) on <a href="http://codepen.io">CodePen</a>.</p><script async src="//assets.codepen.io/assets/embed/ei.js"></script>')
       .gsub(/<p>\[section:(.+)\]<\/p>/, '<section id="p\1">')
       .gsub(/<p>\[\/section\]<\/p>/, '</section>')
-      .gsub(/<p>\[notes:\](.+)<\/p>/, '<p class="notes">\1</p>')
-      .gsub(/<p>\[cite:\](.+)<\/p>/, '<p><cite>\1</p>')
+      .gsub(/<p>\[notice:\](.+)<\/p>/, '<p class="notice">\1</p>')
+      .gsub(/<p>\[cite:\](.+)<\/p>/, '<p><cite>\1</cite></p>')
+      .gsub(/<p>\[project\]<\/p>/, '<dl class="project">')
+      .gsub(/<p>\[\/project\]<\/p>/, '</dl>')
+      .gsub(/<p>\[name:(.+)\]\<\/p>/, '<dt>Project</dt><dd class="project__name">\1</dd>')
+      .gsub(/<p>\[date:(.+)\]\<\/p>/, '<dt>Date</dt><dd class="project__date">\1</dd>')
+      .gsub(/<p>\[url:(.+)\]\<\/p>/, '<dt>URL</dt><dd class="project__url">\1</dd>')
+      .gsub(/<p>\[credits\]<\/p>/, '<dt>Credits</dt><dd class="project__credits">')
+      .gsub(/<p>\[\/credits\]<\/p>/, '</dd>')
       .gsub(/~~(.+)~~/, '<del>\1</del>')
       .gsub(/\[wbr\]/, '<wbr>')
       .gsub(/<p>\[scrollable:\]<\/p>/, '<div class="scrollable-horizontal">')

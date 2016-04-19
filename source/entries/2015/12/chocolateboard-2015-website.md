@@ -1,6 +1,5 @@
 ---
-project: 'chocolateboard'
-title: 'Redesigned this website. v.2015'
+title: 'Re-designed this website. v.2015'
 date: 2015-12-09
 category: works
 tags: web design
@@ -9,19 +8,21 @@ published: true
 eyecatch: '/assets/images/entries/2015/12/chocolateboard-2015-website/eyecatch.png'
 ---
 
-WordPress での更新が面倒になってきてしまったので Middleman blog ＠GitHub Pages に移行し、デザインをアップデートしました。  
-デザインは [log.chocolateboard](http://log.chocolateboard.net) で作ったテンプレートをベースにしています。
+[project]
 
-その他、掲載していませんが、鍵付きでお仕事案件をまとめたポートフォリオサイトも作りました。  
-折を見て公開できればと思っています。
+[name:Re-designed this website. v.2013]
 
-- Design
-- HTML
-- CSS [sass]
-- JavaScript
-- Middleman blog
-- Slim
-- Markdown
-- GitHub Pages
+[date:December 9, 2015]
 
-URL: http://chocolateboard.net
+[url:http://chocolateboard.net]
+
+[credits]
+
+Design, Develop(Front-end): akey  
+
+[/credits]
+
+WordPress @Sakura VPS から Middleman blog ＠GitHub Pages へ変更し、デザインをアップデートしました。  
+[log.chocolateboard](http://log.chocolateboard.net) で作ったテンプレートをベースにしています。
+
+[notice:]Middleman blog + Slim + GitHub Pages

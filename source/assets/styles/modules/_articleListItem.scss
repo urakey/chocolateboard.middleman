@@ -16,12 +16,6 @@
   background-repeat: repeat;
 }
 
-.articleListItem__project {
-  @include fontSize(12);
-
-  margin: .5em 0;
-}
-
 .articleListItem__title {
   @include fontSize(18);
   @include lineclamp(1);
@@ -37,14 +31,15 @@
 }
 
 .articleListItem__body {
-  @extend %notes;
-
-  margin: .5em 0;
-
-  p {
-    @include lineclamp(2);
-
-    height: 3em;
-    margin: 0;
-  }
+  display: none;
+  // @extend %notice;
+  //
+  // margin: .5em 0;
+  //
+  // p {
+  //   @include lineclamp(2);
+  //
+  //   height: 3em;
+  //   margin: 0;
+  // }
 }

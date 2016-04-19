@@ -2,12 +2,6 @@
 //  Module: Article
 //==============================================================================
 
-.article__project {
-  @include fontSize(12);
-
-  margin: 0;
-}
-
 .article__title {
   margin-bottom: 0;
   font-weight: normal;
@@ -24,7 +18,7 @@
   margin: $mlv4 0;
 
   figcaption {
-    @extend %notes;
+    @extend %notice;
     @include linkColor($key-color-2-ll, $key-color-2-ll);
 
     margin: .5em 0;
@@ -222,21 +216,14 @@
 
   figure {
     max-width: 100%;
-    margin: $mlv4 0 $mlv4 $mlv5;
-
-    @include respondTo(large) {
-      margin-right: auto;
-      margin-left: auto;
-    }
+    margin: $mlv4 0;
 
     img {
-      @include box-shadow(rgba($key-color-2, .2) 1px 1px 5px -1px);
-
       max-width: 100%;
     }
 
     figcaption {
-      @extend %notes;
+      @extend %notice;
       @include linkColor($key-color-2-ll, $key-color-2-ll);
 
       margin: .5em 0;
@@ -244,18 +231,16 @@
     }
   }
 
-
   blockquote {
-    max-width: 100%;
-    margin: $mlv4 0 $mlv4 $mlv5;
+    @include fontSize(13);
+    @extend %base;
 
-    @include respondTo(large) {
-      margin-right: auto;
-      margin-left: auto;
-    }
+    max-width: 100%;
+    margin: $mlv4 0;
+    color: $key-color-2-l;
 
     cite {
-      @extend %notes;
+      @extend %notice;
       display: block;
 
       a {

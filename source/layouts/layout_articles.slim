@@ -17,10 +17,6 @@
               a[href="#{a.url}" itemprop="url"]
                 img.Lazy[src="/assets/images/cmn_eyecatch.png" data-original="#{a.data.eyecatch}" alt="" itemprop="image"]
 
-            / - if a.data.project
-            /   p.articleListItem__project
-            /     == a.data.project
-        
             h1.articleListItem__title[itemprop="name"]
               a[href="#{a.url}" itemprop="url"]
                 == a.title
@@ -35,7 +31,7 @@
                   span
                     | Posted on
                   time[datetime="#{a.date.strftime '%Y-%m-%dT%X+09:00'}" itemprop="datePublished"]
-                    == a.date.strftime '%B %d, %Y'
+                    == a.date.strftime '%B %e, %Y'
                 li
                   span
                     | Categories
