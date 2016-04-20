@@ -28,4 +28,8 @@ Client: Special Thanks Inc.
 
 [/project]
 
-スペサンのコーポレートサイト。企画・デザインをお手伝いしました。
+スペサンのコーポレートサイト。企画・デザインを担当しました。  
+その他、実装モックアップを作成しました。
+
+- http://codepen.io/akey/full/MyXEjM/ (PC: HOME)
+- http://codepen.io/akey/full/wGmpem/ (PC: TEAM)
