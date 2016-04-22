@@ -18,7 +18,7 @@ eyecatch: '/assets/images/entries/2013/04/chocolateboard-2013-blog/eyecatch.png'
 
 [credits]
 
-Design, Develop(Front-end): akey  
+Design, Develop(Front End): akey  
 
 [/credits]
 

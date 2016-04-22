@@ -18,7 +18,7 @@ eyecatch: '/assets/images/entries/2015/12/chocolateboard-2015-website/eyecatch.p
 
 [credits]
 
-Design, Develop(Front-end): akey  
+Design, Develop(Front End): akey  
 
 [/credits]
 

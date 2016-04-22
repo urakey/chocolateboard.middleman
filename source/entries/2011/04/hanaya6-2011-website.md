@@ -16,7 +16,7 @@ eyecatch: '/assets/images/entries/2011/04/hanaya6-2011-website/eyecatch.png'
 
 [credits]
 
-Direction, Design, Develop(Front-end): akey  
+Direction, Design, Develop(Front End): akey  
 Client: HANAYA6  
 
 [/credits]

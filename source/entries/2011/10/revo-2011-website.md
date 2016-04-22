@@ -19,7 +19,7 @@ eyecatch: '/assets/images/entries/2011/10/revo-2011-website/eyecatch.png'
 [credits]
 
 Produce: ReVO, SOLISTA  
-Direction, Design, Develop(Front-end): akey
+Direction, Design, Develop(Front End): akey
 
 [/credits]
 

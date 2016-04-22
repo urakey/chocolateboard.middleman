@@ -17,7 +17,7 @@ eyecatch: '/assets/images/entries/2011/04/form-2011-website/eyecatch.png'
 [credits]
 
 Produce: form.  
-Direction, Design, Develop(Front-end): akey
+Direction, Design, Develop(Front End): akey
 
 [/credits]
 

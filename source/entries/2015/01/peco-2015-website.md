@@ -18,7 +18,7 @@ eyecatch: '/assets/images/entries/2015/01/peco-2015-website/eyecatch.png'
 
 [credits]
 
-Design, Develop(Front-end), Writing: akey  
+Design, Develop(Front End), Writing: akey  
 Client: PECO Co.,Ltd.
 
 [/credits]
