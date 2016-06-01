@@ -1,5 +1,5 @@
 ---
-title: 'ReVO -SOLISTA Presents- Website'
+title: 'ReVO -SOLISTA Presents-'
 date: 2011-10-30
 category: works
 tags: web design

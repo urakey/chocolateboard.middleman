@@ -1,5 +1,5 @@
 ---
-title: 'Special Thanks Official Website'
+title: 'Special Thanks'
 date: 2016-04-18
 category: works
 tags: web design
@@ -13,7 +13,7 @@ eyecatch: '/assets/images/entries/2016/04/special-thanks-2016-website/eyecatch.p
 
 [project]
 
-[name:Special Thanks Official Website]
+[name:Special Thanks]
 
 [date:April 18, 2016]
 
@@ -31,5 +31,5 @@ Client: Special Thanks Inc.
 スペサンのコーポレートサイト。企画・デザインを担当しました。  
 その他、実装モックアップを作成しました。
 
-- http://codepen.io/akey/full/MyXEjM/ (PC: HOME)
-- http://codepen.io/akey/full/wGmpem/ (PC: TEAM)
+- http://codepen.io/akey/full/MyXEjM/ (PC: Home)
+- http://codepen.io/akey/full/wGmpem/ (PC: Team)

@@ -5,7 +5,7 @@ Time.zone = 'Tokyo'
 
 set :site_url,         'http://chocolateboard.net'
 set :site_title,       'chocolateboard.'
-set :site_description, 'Online portfolio of Service &amp; UI Designer + Front End Engineer: akey.'
+set :site_description, 'Online portfolio of Designer + Front End Engineer: akey.'
 set :site_author,      'akey'
 
 set :feed_atom_url, '/feed.atom'

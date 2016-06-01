@@ -1,5 +1,5 @@
 ---
-title: 'form. official website'
+title: 'form.'
 date: 2011-04-24
 category: works
 tags: web design
@@ -10,7 +10,7 @@ eyecatch: '/assets/images/entries/2011/04/form-2011-website/eyecatch.png'
 
 [project]
 
-[name:form. official website]
+[name:form.]
 
 [date:April 24, 2011]
 
