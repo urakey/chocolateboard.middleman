@@ -22,7 +22,7 @@ eyecatch: '/assets/images/entries/2016/05/haku-2016-website/eyecatch.png'
 [credits]
 
 Design: akey  
-Client: Special Thanks Inc.
+Client, Develop: Special Thanks Inc.
 
 [/credits]
 

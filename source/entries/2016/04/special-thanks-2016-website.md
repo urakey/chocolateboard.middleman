@@ -22,7 +22,7 @@ eyecatch: '/assets/images/entries/2016/04/special-thanks-2016-website/eyecatch.p
 [credits]
 
 Design: akey  
-Client: Special Thanks Inc.
+Client, Develop: Special Thanks Inc.
 
 [/credits]
 

@@ -19,7 +19,7 @@ eyecatch: '/assets/images/entries/2016/03/surprise-holic-2016-website-teaser/eye
 [credits]
 
 Design: akey  
-Client: Special Thanks Inc.
+Client, Develop: Special Thanks Inc.
 
 [/credits]
 
