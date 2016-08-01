@@ -7,15 +7,15 @@ layout: layout_page
 
 == content_for :content do
 
-  
+
   h2 Index
   ul
     li == link_to 'Self introduction.', '#profile'
     li == link_to 'About this website.', '#website'
     li == link_to 'Website recipe.', '#recipe'
-    
+
   hr
-    
+
   section#profile
     h2 Self introduction.
     figure
@@ -31,7 +31,7 @@ layout: layout_page
       br
       | 数年間アパレル業界内をふらふらしてから Web 業界へ。
     figure
-      p 
+      p
       | 2008年 制作会社で修行
       br
       | 2009年 株式会社 凪 / WEB Designer + Markup Engineer
@@ -39,6 +39,8 @@ layout: layout_page
       | 2013年 株式会社 ディー・エヌ・エー / Service &amp; UI Designer + Front End Engineer
       br
       | 2016年 株式会社 DeNAトラベル / Designer + Front End Engineer
+      br
+      | 2016年 株式会社 メルカリ / Designer + Front End Engineer
     p
       | サービスのデザイン全般とフロントの実装などを担当。
       br
@@ -46,32 +48,34 @@ layout: layout_page
       br
       | その他、個人的に iOS と Android のアプリを作っています。※牛歩
     p 好きなもの → ねこ / コーヒー / チョコレート / 文具 / スニーカーなど。
-    
+
     h3 Tools
-    p 日常的に関わっているツールや言語。
+    p 日常的に関わっているツール。
     ul
       li Photoshop
       li Illustrator
       li Sketch
+      li Flinto, Prott, InVisions
       li Atom
       li Sublime Text
-      li Vim ※入門中
       li Xcode
       li Android Studio
+      li iTerm
+      li Slack
       li Git
       li gulp, Grunt
       li Middleman
-      li HTML
-      li CSS [Sass, SCSS, Bourbon, Compass]
-      li JavaScript
-      li Swift
-      li Java
     p プロジェクトで関わったことのある言語など。
     ul
+      li HTML
+      li CSS [Sass, SCSS, Bourbon, Compass]
+      li JavaScript [jQuery, Zepto.js, Knockout.js]
+      li Swift
+      li Java
       li Ruby [Sinatra, Ruby on Rails, Slim, ERB]
       li Perl [Xslate]
       li PHP [CakePHP, WordPress, Twig]
-      li Java [CakePHP, WordPress, Twig]
+      li Java
 
     h3 Getting in touch.
     p akey[at]chocolateboard.net ヘメールしていただくか、SNS からご連絡ください ;D
@@ -111,8 +115,8 @@ layout: layout_page
       br
       | ご了承くださいませ。
     p.link
-      == link_to 'プライバシーポリシーについてはこちら', '/privacy/'      
-  
+      == link_to 'プライバシーポリシーについてはこちら', '/privacy/'
+
   section#recipe
     h2 Website recipe.
     h3 Design
