@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+  <id>http://chocolateboard.net</id>
+  <title type="text">chocolateboard.</title>
+  <subtitle type="text">Online portfolio of Designer + Front End Engineer: akey.</subtitle>
+  <link rel="self" href="http://chocolateboard.net/feed.atom"/>
+  <link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"/>
+  <generator uri="https://middlemanapp.com/">Middleman</generator>
+  <author>
+    <name>akey</name>
+    <uri>http://chocolateboard.net</uri>
+    <email>akey@chocolateboard.net</email>
+  </author>
+  <updated>2016-06-27T00:00:00+09:00</updated>
+  <entry>
+    <id>http://chocolateboard.net/surprise-holic-2016-website-teaser/</id>
+    <title>SurpriseHolic</title>
+    <link rel="alternate" href="http://chocolateboard.net/surprise-holic-2016-website-teaser/"/>
+    <updated>2016-09-17T11:36:34+09:00</updated>
+    <published>2016-06-27T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectSurpriseHolic -Teaser-DateJune 27, 2016URLhttps://surprise-holic.comCreditsDesign: akeyClient, Develop: Special Thanks Inc....]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><figure><img src="http://chocolateboard.net/assets/images/entries/2016/06/surprise-holic-2016-website/01.jpg" alt=""></figure>
+<figure><img src="http://chocolateboard.net/assets/images/entries/2016/06/surprise-holic-2016-website/02.jpg" alt=""></figure></p>
+
+<dl class="project">
+
+<dt>Project</dt><dd class="project__name">SurpriseHolic -Teaser-</dd>
+
+<dt>Date</dt><dd class="project__date">June 27, 2016</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="https://surprise-holic.com">https://surprise-holic.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design: akey<br>
+Client, Develop: Special Thanks Inc.</p>
+
+</dd>
+
+</dl>
+
+<p>スペサンの運営するサービス SurpriseHolic のブランドサイト。企画・デザインを担当しました。  </p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/haku-2016-website/</id>
+    <title>HAKU</title>
+    <link rel="alternate" href="http://chocolateboard.net/haku-2016-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2016-05-30T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectHAKUDateMay 30, 2016URLhttps://haku-cb.comCreditsDesign: akeyClient, Develop: Special Thanks Inc.スペサンの運営するサービス HAKU のブラン...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><figure><img src="http://chocolateboard.net/assets/images/entries/2016/05/haku-2016-website/01.jpg" alt=""></figure>
+<figure><img src="http://chocolateboard.net/assets/images/entries/2016/05/haku-2016-website/02.jpg" alt=""></figure></p>
+
+<dl class="project">
+
+<dt>Project</dt><dd class="project__name">HAKU</dd>
+
+<dt>Date</dt><dd class="project__date">May 30, 2016</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="https://haku-cb.com">https://haku-cb.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design: akey<br>
+Client, Develop: Special Thanks Inc.</p>
+
+</dd>
+
+</dl>
+
+<p>スペサンの運営するサービス HAKU のブランドサイト。企画・デザインを担当しました。<br>
+その他、実装モックアップを作成しました。</p>
+
+<ul>
+<li><a href="http://codepen.io/akey/full/bpJXva/">http://codepen.io/akey/full/bpJXva/</a> (PC: Home)</li>
+<li><a href="http://codepen.io/akey/full/qZGWWN/">http://codepen.io/akey/full/qZGWWN/</a> (PC: Works)</li>
+</ul>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/special-thanks-2016-website/</id>
+    <title>Special Thanks</title>
+    <link rel="alternate" href="http://chocolateboard.net/special-thanks-2016-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2016-04-18T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectSpecial ThanksDateApril 18, 2016URLhttps://sp-thanks.comCreditsDesign: akeyClient, Develop: Special Thanks Inc.スペサンのコーポレ...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><figure><img src="http://chocolateboard.net/assets/images/entries/2016/04/special-thanks-2016-website/01.jpg" alt=""></figure>
+<figure><img src="http://chocolateboard.net/assets/images/entries/2016/04/special-thanks-2016-website/02.jpg" alt=""></figure></p>
+
+<dl class="project">
+
+<dt>Project</dt><dd class="project__name">Special Thanks</dd>
+
+<dt>Date</dt><dd class="project__date">April 18, 2016</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="https://sp-thanks.com">https://sp-thanks.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design: akey<br>
+Client, Develop: Special Thanks Inc.</p>
+
+</dd>
+
+</dl>
+
+<p>スペサンのコーポレートサイト。企画・デザインを担当しました。<br>
+その他、実装モックアップを作成しました。</p>
+
+<ul>
+<li><a href="http://codepen.io/akey/full/MyXEjM/">http://codepen.io/akey/full/MyXEjM/</a> (PC: Home)</li>
+<li><a href="http://codepen.io/akey/full/wGmpem/">http://codepen.io/akey/full/wGmpem/</a> (PC: Team)</li>
+</ul>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/haku-2016-website-teaser/</id>
+    <title>HAKU -Teaser-</title>
+    <link rel="alternate" href="http://chocolateboard.net/haku-2016-website-teaser/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2016-03-09T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectHAKU -Teaser-DateMarch 9, 2016URLhttps://haku-cb.comCreditsDesign: akeyClient, Develop: Special Thanks Inc.スペサンの運営するサービス HAKU...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">HAKU -Teaser-</dd>
+
+<dt>Date</dt><dd class="project__date">March 9, 2016</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="https://haku-cb.com">https://haku-cb.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design: akey<br>
+Client, Develop: Special Thanks Inc.</p>
+
+</dd>
+
+</dl>
+
+<p>スペサンの運営するサービス HAKU のティザーサイト。<br>
+企画・デザインをお手伝いしました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/surprise-holic-2016-website-teaser/</id>
+    <title>SurpriseHolic -Teaser-</title>
+    <link rel="alternate" href="http://chocolateboard.net/surprise-holic-2016-website-teaser/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2016-03-09T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectSurpriseHolic -Teaser-DateMarch 9, 2016URLhttps://surprise-holic.comCreditsDesign: akeyClient, Develop: Special Thanks Inc.]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">SurpriseHolic -Teaser-</dd>
+
+<dt>Date</dt><dd class="project__date">March 9, 2016</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="https://surprise-holic.com">https://surprise-holic.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design: akey<br>
+Client, Develop: Special Thanks Inc.</p>
+
+</dd>
+
+</dl>
+
+<p>スペサンの運営するサービス SurpriseHolic のティザーサイト。<br>
+企画・デザインをお手伝いしました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/kirakira-hikarielife/</id>
+    <title>Kirakira HikarieLife</title>
+    <link rel="alternate" href="http://chocolateboard.net/kirakira-hikarielife/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-12-11T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[2年間お世話になった DeNA を退職しました。愛情いっぱいの寄せ書きとプレゼントを貰って、あー辞めたんだなーと実感。書いてくれたみなさま、本当にありがとうございます。寄せ書きや写真をかき集めて、綺麗にまとめてくれた、寄せ書き編集長及び編集長のお姉さんお兄さんたちありがとう☆感謝の...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>2年間お世話になった DeNA を退職しました。</p>
+
+<p>愛情いっぱいの寄せ書きとプレゼントを貰って、あー辞めたんだなーと実感。<br>
+書いてくれたみなさま、本当にありがとうございます。</p>
+
+<p>寄せ書きや写真をかき集めて、綺麗にまとめてくれた、寄せ書き編集長及び編集長のお姉さんお兄さんたちありがとう☆<br>
+感謝の気持ちでいっぱいです。</p>
+
+<p>DeNA で出会った人はみんな大好きで、この会社に入ってよかったな～って思いました。<br>
+キラキラヒカリエライフは名残惜しいけれど、次のステップへ進もうと思います。</p>
+
+<p>本当にお世話になりました。<br>
+またどこかでお仕事できますように :D</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/chocolateboard-2015-website/</id>
+    <title>Re-designed this website. v.2015</title>
+    <link rel="alternate" href="http://chocolateboard.net/chocolateboard-2015-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-12-09T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectRe-designed this website. v.2013DateDecember 9, 2015URLhttp://chocolateboard.netCreditsDesign, Develop(Front End): akey  WordPress...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">Re-designed this website. v.2013</dd>
+
+<dt>Date</dt><dd class="project__date">December 9, 2015</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://chocolateboard.net">http://chocolateboard.net</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design, Develop(Front End): akey  </p>
+
+</dd>
+
+<p>WordPress @Sakura VPS から Middleman blog ＠GitHub Pages へ変更し、デザインをアップデートしました。<br>
+<a href="http://log.chocolateboard.net">log.chocolateboard</a> で作ったテンプレートをベースにしています。</p>
+
+<p class="notice">Middleman blog + Slim + GitHub Pages</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/summersonic-2015/</id>
+    <title>SUMMER SONIC 2015</title>
+    <link rel="alternate" href="http://chocolateboard.net/summersonic-2015/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-08-16T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[会社の友達とサマソニいってきた。PHARRELL がかっこよくて満腹。]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>会社の友達とサマソニいってきた。</p>
+
+<p>PHARRELL がかっこよくて満腹。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/tanabata-2015/</id>
+    <title>Tanabata 2015</title>
+    <link rel="alternate" href="http://chocolateboard.net/tanabata-2015/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-07-07T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[今年の七夕は青山〜表参道〜原宿をぶらぶら。お昼に青山で食べたおそばがとっても美味しかった。幸せ。]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>今年の七夕は青山〜表参道〜原宿をぶらぶら。お昼に青山で食べたおそばがとっても美味しかった。幸せ。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/golden-week-2015/</id>
+    <title>Golden Week 2015</title>
+    <link rel="alternate" href="http://chocolateboard.net/golden-week-2015/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-05-06T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[ゴールデンウィーク初日に観葉植物の植え替えをしました。一番手前のクロトンと左のポストが新入り。どちらも 3coins で買ってきた。黄色い鉢は unico で購入した新しい子でお気に入り♡見切れているけど、一番奥のパキラは去年 3coins で購入した子で、すっーーーごく大きくなった！ので...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>ゴールデンウィーク初日に観葉植物の植え替えをしました。一番手前のクロトンと左のポストが新入り。どちらも 3coins で買ってきた。黄色い鉢は unico で購入した新しい子でお気に入り♡</p>
+
+<p>見切れているけど、一番奥のパキラは去年 3coins で購入した子で、すっーーーごく大きくなった！ので、3つくらい大きい鉢に植え替えてあげました。今は亡きクワズイモの大きい鉢への植え替え目指して愛でる。</p>
+
+<p>洗濯掃除を毎日出来たこと、美味しいご飯とお酒を毎日作れたこと、まったり過ごすことが出来たこと、靴と洋服の断捨離が出来たこと、充実連休だった。あ。。あとこのサイトをギリギリモバイルフレンドリーにアップデートしたり。。本当はもっと仕事するつもりだったんだけど。。な。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/chocolateboard-2015-blog/</id>
+    <title>Blog v.2015</title>
+    <link rel="alternate" href="http://chocolateboard.net/chocolateboard-2015-blog/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-03-09T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectBlog v.2015DateMarch 9, 2015URLhttp://log.chocolateboard.netCreditsDesign, Develop(Front End): akey  WordPress @Sakura VPS か...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">Blog v.2015</dd>
+
+<dt>Date</dt><dd class="project__date">March 9, 2015</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://log.chocolateboard.net">http://log.chocolateboard.net</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design, Develop(Front End): akey  </p>
+
+</dd>
+
+</dl>
+
+<p>WordPress @Sakura VPS から Middleman blog ＠GitHub Pages へ変更し、デザインを微妙にアップデートしました。</p>
+
+<p class="notice">Middleman blog + Slim + GitHub Pages</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/peco-2015-website/</id>
+    <title>PECO -Beta-</title>
+    <link rel="alternate" href="http://chocolateboard.net/peco-2015-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2015-01-03T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectPECO -Beta-DateJanuary 3, 2015URLhttp://peco-japan.comCreditsDesign, Develop(Front End), Writing: akeyClient: PECO Co.,Ltd.]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">PECO -Beta-</dd>
+
+<dt>Date</dt><dd class="project__date">January 3, 2015</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://peco-japan.com">http://peco-japan.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design, Develop(Front End), Writing: akey<br>
+Client: PECO Co.,Ltd.</p>
+
+</dd>
+
+</dl>
+
+<p>PECO のβ版ウェブサイト。<br>
+サービス立ち上げ初期フェーズのサービスデザイン・実装を担当しました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/ohanami-lunch/</id>
+    <title>Ohanami lunch</title>
+    <link rel="alternate" href="http://chocolateboard.net/ohanami-lunch/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2014-04-01T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[アジアンランチでお弁当を買って、宮下公園でお花見ランチ with ちーむの女子メン。桜ってほんとに綺麗だなー。大事なものを大事にしようってそんな風に思った。]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>アジアンランチでお弁当を買って、宮下公園でお花見ランチ with ちーむの女子メン。</p>
+
+<p>桜ってほんとに綺麗だなー。大事なものを大事にしようってそんな風に思った。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/mocco-limited-shop-kindling/</id>
+    <title>mocco -Limited shop ”Kindling”-</title>
+    <link rel="alternate" href="http://chocolateboard.net/mocco-limited-shop-kindling/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2013-09-03T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="note"/>
+    <category scheme="http://chocolateboard.net" term="misc"/>
+    <summary type="html">
+      <![CDATA[昨日仕事の帰りに、ルミネ新宿で開催されている「Limited shop ”Kindling” in LUMINE SHINJUKU 1」に行ってきました。妹のようなかわいい友人のブランドが参加しています。mocco という名前のブランドです。参加しているブランドのアクセサリーが、全体...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p>昨日仕事の帰りに、ルミネ新宿で開催されている「Limited shop ”Kindling” in LUMINE SHINJUKU 1」に行ってきました。</p>
+
+<p>妹のようなかわいい友人のブランドが参加しています。<br>
+mocco という名前のブランドです。</p>
+
+<p>参加しているブランドのアクセサリーが、全体的にとっても素敵でした。</p>
+
+<p>9/12 まで開催しているようですので、通りかかった方は是非チラ見してみてくださいね ^^</p>
+
+<p>mocco は小さなおうちディスプレイの中にあります。</p>
+
+<ul>
+<li><a href="http://moccomocco.com/">mocco official site</a></li>
+<li><a href="https://twitter.com/takitomocco">Twitter @takitomocco</a></li>
+</ul>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/chocolateboard-2013-website/</id>
+    <title>Re-designed this website. v.2013</title>
+    <link rel="alternate" href="http://chocolateboard.net/chocolateboard-2013-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2013-06-24T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectRe-designed this website. v.2013DateJune 24, 2013URLhttp://chocolateboard.netCreditsDesign, Develop(Front End): akey  オンラインポ...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">Re-designed this website. v.2013</dd>
+
+<dt>Date</dt><dd class="project__date">June 24, 2013</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://chocolateboard.net">http://chocolateboard.net</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design, Develop(Front End): akey  </p>
+
+</dd>
+
+</dl>
+
+<p>オンラインポートフォリオを作成しました。</p>
+
+<p>正方形をメインモチーフにしています。<br>
+素っ気ないくらいシンプルでちょっとだけ上品な感じのものが好きなので、そんな感じにしました。</p>
+
+<p>Portfolio + Note の 2 カテゴリーで更新してゆけるよう作っています。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/chocolateboard-2013-blog/</id>
+    <title>Blog v.2013</title>
+    <link rel="alternate" href="http://chocolateboard.net/chocolateboard-2013-blog/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2013-04-28T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectBlog v.2013DateApril 28, 2013URLhttp://log.chocolateboard.netCreditsDesign, Develop(Front End): akey  制作に関するメモ書き専用のブログを作成しまし...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">Blog v.2013</dd>
+
+<dt>Date</dt><dd class="project__date">April 28, 2013</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://log.chocolateboard.net">http://log.chocolateboard.net</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Design, Develop(Front End): akey  </p>
+
+</dd>
+
+</dl>
+
+<p>制作に関するメモ書き専用のブログを作成しました。マイペースに更新していきたいと思います。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/hanabi/</id>
+    <title>HOSHIKUZU4 / hanabi</title>
+    <link rel="alternate" href="http://chocolateboard.net/hanabi/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2012-08-15T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="graphic design"/>
+    <summary type="html">
+      <![CDATA[ProjectHOSHIKUZU4 / hanabiDateAugust 15, 2012CreditsArtDirection, Design: akeyClient: HOSHIKUZU4  HOSHIKUZU4 の 2nd Album [hanabi] のジ...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">HOSHIKUZU4 / hanabi</dd>
+
+<dt>Date</dt><dd class="project__date">August 15, 2012</dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>ArtDirection, Design: akey<br>
+Client: HOSHIKUZU4  </p>
+
+</dd>
+
+</dl>
+
+<p>HOSHIKUZU4 の 2nd Album [hanabi] のジャケットをデザインしました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/tokyo-running/</id>
+    <title>HOSHIKUZU4 / 東京ランニング</title>
+    <link rel="alternate" href="http://chocolateboard.net/tokyo-running/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2011-11-02T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="graphic design"/>
+    <summary type="html">
+      <![CDATA[ProjectHOSHIKUZU4 / 東京ランニングDateNovember 2, 2011CreditsArtDirection, Design: akeyIllustration: Ai KozakiClient: HOSHIKUZU4  HOSHIKUZU4...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">HOSHIKUZU4 / 東京ランニング</dd>
+
+<dt>Date</dt><dd class="project__date">November 2, 2011</dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>ArtDirection, Design: akey<br>
+Illustration: Ai Kozaki<br>
+Client: HOSHIKUZU4  </p>
+
+</dd>
+
+</dl>
+
+<p>HOSHIKUZU4 の 1st Album [東京ランニング] のジャケットをデザインしました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/revo-2011-website/</id>
+    <title>ReVO -SOLISTA Presents-</title>
+    <link rel="alternate" href="http://chocolateboard.net/revo-2011-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2011-10-30T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectReVO -SOLISTA Presents-DateOctober 30, 2011URLhttp://revo-tokyo.comCreditsProduce: ReVO, SOLISTADirection, Design, Develop(Front End...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">ReVO -SOLISTA Presents-</dd>
+
+<dt>Date</dt><dd class="project__date">October 30, 2011</dd>
+
+<dt>URL</dt><dd class="project__url"><a href="http://revo-tokyo.com">http://revo-tokyo.com</a></dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Produce: ReVO, SOLISTA<br>
+Direction, Design, Develop(Front End): akey</p>
+
+</dd>
+
+</dl>
+
+<p>ReVO -SOLISTA Presents- のウェブサイト。<br>
+ReVO のスタッフとして参加し、ウェブ周りの企画・デザイン・実装を担当しています。</p>
+
+<blockquote>
+<p>都市型屋外テクノパーティー’ReVO’</p>
+
+<p>ReVOは日本一の歓楽街、歌舞伎町の喧噪と深夜時間帯に行われるクラブミュージックの音、空気を融合させながら、東日本大震災復興に寄与する。<br>
+出演陣は国内外で活躍するトップDJから都内で台頭する中堅DJ、若手DJをラインナップ。</p>
+
+<p>過去4回の開催を重ね、コアなテクノ・パーティーフリークスからお祭り好きまで、老若男女を魅了してきたReVO。<br>
+都市型ラストワルツに向けてLet’s Dance!</p>
+
+<p>※イベントに参加される方は、必ず注意事項お読みください。</p>
+
+<p>Urban-Open-Air Techno Party ‘ReVO’ in central Shinjuku !!!</p>
+
+<p>Open-Air Party ‘ReVO’ focus ruthlessly on unique location in the central city. This time will be at Cine-City Park, Kabukicho, Shinjuku. Only ReVO you can dance outside in the central city with Techno, House and D&amp;B with best sound system.</p>
+
+<p>Don’t miss the legendary Open-Air Party in Shinjuku!</p>
+</blockquote>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/hanaya6-2011-website/</id>
+    <title>HANAYA6 Online Store</title>
+    <link rel="alternate" href="http://chocolateboard.net/hanaya6-2011-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2011-04-24T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="graphic design"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[ProjectHANAYA6 Online StoreDateApril 24, 2011CreditsDirection, Design, Develop(Front End): akeyClient: HANAYA6  HANAYA6のオンラインストア。ウェ...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">HANAYA6 Online Store</dd>
+
+<dt>Date</dt><dd class="project__date">April 24, 2011</dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Direction, Design, Develop(Front End): akey<br>
+Client: HANAYA6  </p>
+
+</dd>
+
+</dl>
+
+<p>HANAYA6のオンラインストア。<br>
+ウェブサイトのデザイン・実装、ロゴやパッケージのデザインを担当しました。</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>http://chocolateboard.net/form-2011-website/</id>
+    <title>form.</title>
+    <link rel="alternate" href="http://chocolateboard.net/form-2011-website/"/>
+    <updated>2016-08-01T15:30:05+09:00</updated>
+    <published>2011-04-24T00:00:00+09:00</published>
+    <author>
+      <name>akey</name>
+    </author>
+    <category scheme="http://chocolateboard.net" term="works"/>
+    <category scheme="http://chocolateboard.net" term="web design"/>
+    <summary type="html">
+      <![CDATA[Projectform.DateApril 24, 2011CreditsProduce: form.Direction, Design, Develop(Front End): akeyDJ レーベル form.(フォーム) のウェブサイト。企画・デザイン・実装...]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<dl class="project">
+
+<dt>Project</dt><dd class="project__name">form.</dd>
+
+<dt>Date</dt><dd class="project__date">April 24, 2011</dd>
+
+<dt>Credits</dt><dd class="project__credits">
+
+<p>Produce: form.<br>
+Direction, Design, Develop(Front End): akey</p>
+
+</dd>
+
+</dl>
+
+<p>DJ レーベル form.(フォーム) のウェブサイト。企画・デザイン・実装を担当しています。</p>
+]]>
+    </content>
+  </entry>
+</feed>
